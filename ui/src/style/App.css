@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+#header-jumbotron {
+  background-color: #222;
+  height: 150px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Fugaz One", cursive;
+  font-family: "Fugaz One", cursive;
+  border-radius: 0px;
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+#ipsum-generator-button {
+  height: 100px;
+  width: 500px;
+  background-color: #222;
+  color: white;
+  font-size: 2em;
+  border-radius: 5px;
+  margin: 15% auto;
+  font-family: "Fugaz One", cursive;
+}
+
+#text-area {
+  width: 80%;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10% auto 0 auto;
+  display: none;
+  word-wrap: break-word;
+  padding: 20px;
+  font-size: 1.5em;
+  overflow-y: auto;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  height: 30px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  line-height: 30px;
+}
+
+i {
+  margin-left: 20px;
+}
+
+#redo-btn {
+  position: fixed;
+  top: 170px;
+  right: 20px;
+  font-size: 2em;
+  display: none;
+}
+
+#redo-btn:hover {
+  cursor: pointer;
+  color: rgb(254, 208, 47);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+a:hover {
+  color: rgb(254, 208, 47);
+}
+
+span {
+  color: rgb(254, 208, 47);
+}
+
+main {
+  position: relative;
+}

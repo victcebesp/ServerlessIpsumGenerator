@@ -1,0 +1,26 @@
+{
+  "name": "ipsum-generator-lambda",
+  "version": "1.0.0",
+  "description": "Lambda function get ipsum text",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc handler.ts"
+  },
+  "author": "Víctor Ceballos Espinosa",
+  "license": "ISC",
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.15",
+    "@types/lorem-ipsum": "^1.0.2",
+    "@types/node": "^10.12.9",
+    "serverless-plugin-typescript": "^1.1.5",
+    "lorem-ipsum": "^1.0.6"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.15",
+    "@types/lorem-ipsum": "^1.0.2",
+    "@types/node": "^10.12.9",
+    "serverless-plugin-typescript": "^1.1.5",
+    "lorem-ipsum": "^1.0.6"
+  }
+}

@@ -1,0 +1,20 @@
+service: ipsum-generator
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+
+package:
+  include: handler.ts
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - http:
+          path: hello
+          method: get
+          cors: true
+
+plugins:
+  - serverless-plugin-typescript
