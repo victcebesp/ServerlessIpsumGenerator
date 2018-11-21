@@ -8,11 +8,11 @@ package:
   include: handler.ts
 
 functions:
-  hello:
-    handler: handler.hello
+  generateIpsum:
+    handler: handler.generateIpsum
     events:
       - http:
-          path: hello
+          path: generateIpsum
           method: get
           cors: true
 

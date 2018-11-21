@@ -7,7 +7,7 @@ interface Response {
   headers: object
 }
 
-export const hello: Handler = (
+export const generateIpsum: Handler = (
   event: any,
   context: Context,
   callback: Callback
