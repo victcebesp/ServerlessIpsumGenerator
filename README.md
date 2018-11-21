@@ -1,4 +1,5 @@
-#Serverless Ipsum Generator
+Serverless Ipsum Generator
+==========================
 
 The main purpose of this project is just getting some practise with [Serverless framework](https://serverless.com), [React](https://reactjs.org), [Typescript](https://www.typescriptlang.org) and [AWS](https://aws.amazon.com/es/).
 
